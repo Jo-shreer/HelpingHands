@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "phone": "098-765-4321"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "serviceName": "Cleaning",
+      "description": "House cleaning service",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "serviceName": "Gardening",
+      "description": "Garden maintenance service",
+      "price": 30
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "packageName": "Basic Package",
+      "servicesIncluded": [1],
+      "price": 100
+    },
+    {
+      "id": 2,
+      "packageName": "Premium Package",
+      "servicesIncluded": [1, 2],
+      "price": 120
+    }
+  ],
+  "helpers": [
+    {
+      "id": 1,
+      "name": "Helper One",
+      "skills": ["Cleaning", "Cooking"],
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Helper Two",
+      "skills": ["Gardening", "Caregiving"],
+      "rating": 4.0
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "serviceId": 1,
+      "date": "2026-04-05",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "serviceId": 2,
+      "date": "2026-04-06",
+      "status": "confirmed"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "rating": 5,
+      "comment": "Excellent service!"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "rating": 4,
+      "comment": "Very good experience."
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "amount": 50,
+      "status": "paid"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "amount": 30,
+      "status": "pending"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "message": "Your booking is pending."
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "message": "Your booking has been confirmed."
+    }
+  ]
+}
